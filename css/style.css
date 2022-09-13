@@ -118,30 +118,43 @@ header .header-wrap div.email{
 .hero__top .email a:hover{
   filter: opacity(0.3);
 }
-.hero__top h1,h2 {
+.hero__top div h1 {
   color: #fff;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 1.1;
   margin-bottom: 32px;
-  max-width: 600px;
+  max-width: 800px;
   z-index: 1;
   position: relative;
   font-family: "Lora-BoldItalic";
 }
-.hero__top h1{
+
+/* text effect */
+.hidden {
+  opacity: 0;
+}
+.console-container {
+  font-family: "Lora-BoldItalic";
   font-size: 100px;
+  text-align: center;
+  height: 200px;
+  width: 1200px;
+  display: block;
+  color: white;
 }
-@media (max-width: 960px) {
-  .hero__top h1 {
-    font-size: 32px;
-  }
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  /* left: 10px; */
 }
+
 
 .hero__top p {
   mix-blend-mode: difference;
   color: rgba(255, 255, 255, 0.6);
   max-width: 500px;
-  margin: 0 auto;
+  margin:auto;
   font-size: 18px;
   z-index: 1;
   position: relative;
@@ -339,9 +352,12 @@ header .header-wrap div.email{
   margin-bottom: 10px;
 }
 
-/* mobile/tablet------------------------------------- */
-@media all and (max-width: 700px) {
-  
+/* tablet------------------------------------- */
+@media all and (max-width: 960px) {
+  .console-container {
+    font-size: 4.750em;
+    width: 800px;
+  }
   .about__item {
     display: inline-block;
     width: 500px;
@@ -361,5 +377,31 @@ header .header-wrap div.email{
   }
   .extra-section div.Contact h3{
     font-size: 4.000em;
+  }
+}
+@media all and (max-width: 500px) {
+  .console-container {
+    font-size: 2.750em;
+    width: 800px;
+  }
+  .about__item {
+    display: inline-block;
+    width: 400px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about__item img {
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+  }
+  .about__item .about__item__hover{
+    position: relative;
+    width: 350px;
+    height: 350px;
+  }
+  .extra-section div.Contact h3{
+    font-size: 3.750em;
   }
 }
