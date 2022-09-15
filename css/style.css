@@ -59,6 +59,12 @@ header h2 a{
   font-family: "SUIT-Regular";
   padding: 5px 10px;
   background: #000;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+header h2 a img{
+  width: 100%;
 }
 
 header .header-wrap nav{
@@ -198,6 +204,7 @@ header .header-wrap div.email{
   padding: 0px 40px;
   display: flex;
   flex-direction: column;
+  left: -160px;
 }
 .about__item:nth-child(odd) img {
   margin-bottom: 64px;
