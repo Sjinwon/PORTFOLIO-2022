@@ -57,8 +57,78 @@ header h2 a{
   text-decoration: none;
   font-size: 20px;
   font-family: "Lora-BoldItalic";
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 1000px;
+  border: 1px solid #fff;
   background: #000;
+}
+.title-shine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 100px;
+  color: #fff;
+  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-family: "Lora-BoldItalic";
+  font-weight: 600;
+  font-size: 6.000em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 860px;
+  }
+  100% {
+    background-position: 860px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 860px;
+  }
+  100% {
+    background-position: 860px;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 860px;
+  }
+  100% {
+    background-position: 860px;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 860px;
+  }
+  100% {
+    background-position: 860px;
+  }
 }
 
 header .header-wrap nav{
@@ -355,6 +425,71 @@ header .header-wrap div.email{
 
 /* tablet------------------------------------- */
 @media all and (max-width: 960px) {
+  .title-shine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 100px;
+    color: #fff;
+    background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-family: "Lora-BoldItalic";
+    font-weight: 600;
+    font-size: 4.000em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  @-moz-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 750px;
+    }
+    100% {
+      background-position: 750px;
+    }
+  }
+  @-webkit-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 750px;
+    }
+    100% {
+      background-position: 750px;
+    }
+  }
+  @-o-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 750px;
+    }
+    100% {
+      background-position: 750px;
+    }
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 750px;
+    }
+    100% {
+      background-position: 750px;
+    }
+  }
+
   .console-container {
     font-size: 4.750em;
     width: 800px;
@@ -380,7 +515,74 @@ header .header-wrap div.email{
     font-size: 4.000em;
   }
 }
+
+/* mobile --------------------------------------------------------------- */
 @media all and (max-width: 500px) {
+  .title-shine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 100px;
+    color: #fff;
+    background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-family: "Lora-BoldItalic";
+    font-weight: 600;
+    font-size: 2.250em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  @-moz-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 515px;
+    }
+    100% {
+      background-position: 515px;
+    }
+  }
+  @-webkit-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 515px;
+    }
+    100% {
+      background-position: 515px;
+    }
+  }
+  @-o-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 515px;
+    }
+    100% {
+      background-position: 515px;
+    }
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 515px;
+    }
+    100% {
+      background-position: 515px;
+    }
+  }
+
   .console-container {
     font-size: 2.750em;
     width: 800px;
