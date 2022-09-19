@@ -361,7 +361,7 @@ header .header-wrap div.email{
 
 .horizontal-scroll__section {
   position: relative;
-  height: 450vh;
+  height: 480vh;
 }
 .horizontal-scroll__wrapper {
   position: sticky;

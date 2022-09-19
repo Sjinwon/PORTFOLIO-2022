@@ -1,3 +1,5 @@
+
+/* 작품영역 가로스크롤 */
 const scrollSection = document.querySelector('.horizontal-scroll__section');
 const scrollContent = document.querySelector('.horizontal-scroll__content');
 
@@ -16,8 +18,6 @@ document.addEventListener('scroll', e => {
 
   }
 });
-
-
 
 const heroTween = background => {
   const tl = gsap.timeline();
@@ -178,3 +178,7 @@ class CanvasCursor {
 
 
 const canvasCursor = new CanvasCursor();
+
+//footer 해마다 년도가 자동으로 변경
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();
