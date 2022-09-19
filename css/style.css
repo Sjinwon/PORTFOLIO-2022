@@ -74,6 +74,8 @@ header h2 a{
   border: 1px solid #fff;
   background: #000;
 }
+
+/* main title effect */
 .title-shine {
   position: absolute;
   top: 50%;
@@ -137,29 +139,6 @@ header h2 a{
   100% {
     background-position: 860px;
   }
-}
-
-header .header-wrap nav{
-  position: absolute;
-  top: 25px;
-  right: 30px;
-}
-header .header-wrap nav ul{
-  display: flex;
-}
-header .header-wrap nav ul li{
-  list-style: none;
-}
-header .header-wrap nav ul li a{
-  padding: 5px 20px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #000;
-  margin: 0 10px;
-}
-header .header-wrap div.email{
-  position: absolute;
-  
 }
 
 .hero {
@@ -361,7 +340,7 @@ header .header-wrap div.email{
 
 .horizontal-scroll__section {
   position: relative;
-  height: 480vh;
+  height: 520vh;
 }
 .horizontal-scroll__wrapper {
   position: sticky;
