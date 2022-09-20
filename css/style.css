@@ -340,7 +340,7 @@ header h2 a{
 
 .horizontal-scroll__section {
   position: relative;
-  height: 480vh;
+  height: 610vh;
 }
 .horizontal-scroll__wrapper {
   position: sticky;
