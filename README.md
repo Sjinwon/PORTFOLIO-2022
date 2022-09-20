@@ -1,7 +1,7 @@
 [![Portfolio](./favicon.ico)](https://github.com/Sjinwon/PORTFOLIO-2022)
 
 # Portfolio
-### 제작기간 : 5일
+### 제작기간 : 7일
 ### 사용언어 : html css javascript photoshop
 
 <br>
