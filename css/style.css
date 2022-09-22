@@ -519,7 +519,9 @@ header h2 a{
       background-position: 750px;
     }
   }
-
+  .horizontal-scroll__section {
+    height: 600vh;
+  }
   .console-container {
     font-size: 4.750em;
     width: 800px;
@@ -612,7 +614,9 @@ header h2 a{
       background-position: 515px;
     }
   }
-
+  .horizontal-scroll__section {
+    height: 550vh;
+  }
   .console-container {
     font-size: 2.750em;
     width: 800px;
