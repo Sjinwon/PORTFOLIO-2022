@@ -240,15 +240,15 @@ header h2 a{
 /* sns text effect */
 .hero__top .sns-texteffect{
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 560px;
 }
 .sns-texteffect span {
   position: relative;
-  top: 220px;
+  top: 230px;
   display: inline-block;
   animation: bounce 0.3s ease infinite alternate;
-  font-size: 1.125em;
+  font-size: 1.000em;
   color: #fff;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
     0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
@@ -284,11 +284,7 @@ header h2 a{
   }
 }
 
-
-
-
-
-
+/* project area */
 .about {
   background-color: #fff;
 }
