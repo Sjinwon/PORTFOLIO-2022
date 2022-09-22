@@ -245,7 +245,7 @@ header h2 a{
 }
 .sns-texteffect span {
   position: relative;
-  top: 230px;
+  top: 240px;
   display: inline-block;
   animation: bounce 0.3s ease infinite alternate;
   font-size: 1.000em;
@@ -277,7 +277,7 @@ header h2 a{
 }
 @keyframes bounce {
   100% {
-    top: 210px;
+    top: 232px;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
       0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
       0 50px 25px rgba(0, 0, 0, 0.2);
